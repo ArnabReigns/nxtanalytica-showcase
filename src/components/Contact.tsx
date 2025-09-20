@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Contact = () => {
   return (
     <section id="contact" className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Get In <span className="text-primary">Touch</span>
@@ -24,7 +24,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground mb-4">Send us an email and we'll get back to you within 24 hours</p>
-              <p className="text-primary font-medium">hello@nxtanalytica.com</p>
+              <p className="text-primary font-medium">contact@nxtanalytica.com</p>
             </CardContent>
           </Card>
 
@@ -57,10 +57,10 @@ const Contact = () => {
 
         <div className="bg-gradient-to-r from-primary to-primary-hover rounded-2xl p-8 md:p-12 text-center">
           <h3 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-            Ready to Build Something Amazing?
+            Ready to Transform Your Data Strategy?
           </h3>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Let's transform your ideas into reality with our expert development team
+            Let's unlock your data's potential and drive intelligent business outcomes together
           </p>
           <Button size="lg" variant="outline" className="bg-background text-primary hover:bg-background/90">
             Start Your Project Today

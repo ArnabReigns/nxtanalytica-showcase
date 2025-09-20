@@ -1,32 +1,32 @@
 const Technologies = () => {
   const techCategories = [
     {
-      category: "Frontend",
-      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+      category: "Analytics & AI",
+      technologies: ["Python", "TensorFlow", "PyTorch", "Apache Spark"]
     },
     {
-      category: "Backend",
-      technologies: ["Node.js", "Express", "Python", "Java"]
+      category: "Data Processing",
+      technologies: ["Kafka", "RabbitMQ", "Apache Airflow", "Hadoop"]
     },
     {
-      category: "Database",
-      technologies: ["MongoDB", "PostgreSQL", "Redis", "Firebase"]
+      category: "Databases",
+      technologies: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch"]
     },
     {
-      category: "DevOps & Tools",
-      technologies: ["RabbitMQ", "Kafka", "Docker", "AWS"]
+      category: "Cloud & Infrastructure",
+      technologies: ["AWS", "Docker", "Kubernetes", "Apache Superset"]
     }
   ];
 
   return (
     <section id="technologies" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="text-primary">Technologies</span>
+            Our <span className="text-primary">Technology Stack</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We work with the latest and most powerful technologies to deliver cutting-edge solutions
+            Leveraging cutting-edge technologies to deliver powerful data analytics and AI solutions
           </p>
         </div>
 

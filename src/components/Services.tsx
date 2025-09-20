@@ -3,40 +3,40 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Services = () => {
   const services = [
     {
-      title: "Web Development",
-      description: "Custom websites built with modern frameworks like React, Next.js, and responsive design principles.",
-      icon: "🌐"
+      title: "Data Analytics",
+      description: "Advanced analytics solutions to uncover actionable insights, optimize performance, and predict future trends.",
+      icon: "📊"
     },
     {
-      title: "Mobile Apps",
-      description: "Cross-platform mobile applications with seamless user experience and native performance.",
-      icon: "📱"
+      title: "Digital Transformation",
+      description: "Modernize legacy systems, enhance customer experiences, and enable agile, scalable operations.",
+      icon: "🚀"
     },
     {
-      title: "Backend Development",
-      description: "Robust server-side solutions using Node.js, Express, Python, and Java for scalable applications.",
-      icon: "⚙️"
+      title: "AI-Powered Innovation",
+      description: "Leverage cutting-edge AI solutions to automate processes, personalize engagement, and deliver measurable outcomes.",
+      icon: "🤖"
     },
     {
-      title: "Database Solutions",
-      description: "Efficient data management with MongoDB, PostgreSQL, and advanced queuing systems.",
-      icon: "🗄️"
+      title: "Business Intelligence",
+      description: "Transform raw data into strategic insights with comprehensive BI solutions and real-time dashboards.",
+      icon: "📈"
     },
     {
-      title: "Cloud Hosting",
-      description: "Reliable hosting solutions with auto-scaling, monitoring, and 99.9% uptime guarantee.",
+      title: "Cloud Analytics",
+      description: "Scalable cloud-based analytics platforms with advanced security and seamless integration capabilities.",
       icon: "☁️"
     },
     {
-      title: "SEO Optimization",
-      description: "Comprehensive SEO strategies to improve your website's visibility and search rankings.",
-      icon: "📈"
+      title: "Consulting Services",
+      description: "Strategic consulting to build resilient, data-driven ecosystems that thrive in the digital age.",
+      icon: "💡"
     }
   ];
 
   return (
     <section id="services" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Our <span className="text-primary">Services</span>
